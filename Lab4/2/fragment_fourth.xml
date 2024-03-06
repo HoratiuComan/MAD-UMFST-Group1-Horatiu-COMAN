@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#855CCF"
+    tools:context=".FourthFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="479dp"
+        android:layout_height="339dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="528dp"
+        android:src="@drawable/gettyimages1259141694_29f8600b_8cec_4a87_9238_a6ea3203fd04" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="610dp"
+        android:layout_height="338dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="79dp"
+        android:text="Toamna este unul din cele patru anotimpuri ale climei temperate. Este anotimpul care face legătura între vară și iarnă."
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="207dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="-59dp"
+        android:text="Toamna"
+        tools:textColor="#000000"
+        tools:textSize="30dp" />
+
+</RelativeLayout>
